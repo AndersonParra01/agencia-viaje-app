@@ -25,10 +25,6 @@ import { ThemeToggleService } from '@services/theme-toggle.service';
   styleUrl: './main.component.sass',
 })
 export class MainComponent {
-  constructor(public themeToggleService: ThemeToggleService) { }
 
-  toggleTheme(): void {
-    this.themeToggleService.toggleTheme();
-    console.log('Click');
-  }
+
 }
